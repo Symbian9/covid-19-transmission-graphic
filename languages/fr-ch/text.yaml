@@ -11,20 +11,20 @@ this-person-worked-from-home:
     CETTE PERSONNE A
     TRAVAILLÉ DEPUIS
     LA MAISON
-  size: 38
-  xOffset: 210
-  yOffset: 110
+  size: 30
+  xOffset: 195
+  yOffset: 125
   rotate: 0
   justify: center
 
 this-person-didnt-go-to-that-bbq:
   text: |
     CETTE PERSONNE
-    N'EST PAS ALLÉ A
-    CE BARBECUE
-  size: 38
-  xOffset: 533
-  yOffset: 115
+    N'EST PAS ALLÉ
+    À CE BARBECUE
+  size: 30
+  xOffset: 525
+  yOffset: 130
   rotate: 0
   justify: center
 
@@ -32,18 +32,18 @@ didnt-fly-domestically:
   text: |
     N'A PAS PRIS DE
     VOLS INTERNES
-  size: 38
-  xOffset: 420
-  yOffset: 570
+  size: 30
+  xOffset: 438
+  yOffset: 580
   rotate: 0
   justify: center
 
 stayed-home:
   text: |
-    RESTÉ A
+    RESTÉ À
     LA MAISON
-  size: 38
-  xOffset: 840
-  yOffset: 645
+  size: 30
+  xOffset: 830
+  yOffset: 655
   rotate: 0
   justify: center
