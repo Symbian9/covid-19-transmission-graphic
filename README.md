@@ -1,4 +1,4 @@
-# Covid-19-curves-graphic-social
+# covid-19-transmission-graphic
 
 Translation automation for the fantastic GIF made by @siouxsiew, @xtotl and @thespinofftv.
 
@@ -7,11 +7,11 @@ As the original GIF is in english only, this repo helps to make rapid translatio
 **People have to change their behaviour now** and I believe this GIF is a great explainer of what we have to do as communities.
 
 ## Original
-![](https://thespinoff.co.nz/wp-content/uploads/2020/03/Covid-19-curves-graphic-social-v3.gif)
+![](https://thespinoff.co.nz/wp-content/uploads/2020/03/Covid-19-Transmission-graphic-01.gif)
 
 ## Released Translations
 
-[**See the Releases**](https://gitlab.com/msutter/covid-19-curves-graphic-social/-/releases)
+[**See the Releases**](https://gitlab.com/msutter/covid-19-transmission-graphic/-/releases)
 
 ## Contribute with a traduction of your own language
 
@@ -62,7 +62,7 @@ git commit -m "Add translation for the Romansh language (rm-ch)"
 git push --set-upstream origin rm-ch
 ```
 
-5. Go to [Gitlab.com](https://gitlab.com/msutter/covid-19-curves-graphic-social/-/branches) and open a merge request for your changes.
+5. Go to [Gitlab.com](https://gitlab.com/msutter/covid-19-transmission-graphic/-/branches) and open a merge request for your changes.
 
 Once a merge request is started, a pipeline will build a version of your new GIF. You can see it in the artifacts of the `build_gif` pipeline job. (Job artifacts -> browse -> releases
 
