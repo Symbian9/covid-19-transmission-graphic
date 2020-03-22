@@ -1,0 +1,78 @@
+---
+stages:
+  - build
+  - publish
+
+build-gif-mr:
+  image:
+    name: registry.gitlab.com/msutter/gimp-gif-translate:latest
+  
+  stage: build
+
+  script:
+    - echo ${CI_MERGE_REQUEST_SOURCE_BRANCH_NAME}
+    - /translate.sh -f templates/covid-19-transmission-graphic.xcf -p /translate-gif.py -l ${CI_MERGE_REQUEST_SOURCE_BRANCH_NAME}
+
+  only:
+    refs:
+      - merge_requests
+    changes:
+      - languages/**/text.yaml
+
+  artifacts:
+    paths:
+      - releases/Covid-19-curves-graphic-social-v2-${CI_MERGE_REQUEST_SOURCE_BRANCH_NAME}.gif
+
+build-gif-master:
+  image:
+    name: registry.gitlab.com/msutter/gimp-gif-translate:latest
+  
+  stage: build
+
+  script:
+    - echo ${CI_MERGE_REQUEST_SOURCE_BRANCH_NAME}
+    - /translate.sh -f templates/covid-19-transmission-graphic.xcf -p /translate-gif.py -a
+
+  only:
+    refs:
+      - master
+    changes:
+      - languages/**/text.yaml
+      - templates/*
+
+  artifacts:
+    paths:
+      - releases/*.gif
+
+.create-release-message: &create-release-message |
+  echo '## Available translations' > release_message.txt
+  echo >> release_message.txt
+  for release in $(ls releases/*.gif);do
+      filename=$(basename $release)
+      echo "* ${filename}" >> release_message.txt
+  done
+  echo >> release_message.txt
+  echo '## Previews' >> release_message.txt
+
+  export release_message=$(cat release_message.txt)
+  rm release_message.txt
+
+
+.install-tools: &install-tools |
+  apk update
+  apk add curl
+
+publish:
+  image: python:3.7-alpine
+  stage: publish
+  only:
+    - tags
+  script:
+    - *install-tools
+    - 'curl --location --output gifs.zip "https://gitlab.com/api/v4/projects/$CI_PROJECT_ID/jobs/artifacts/master/download?job=build-gif-master&job_token=$CI_JOB_TOKEN"'
+    - unzip gifs.zip
+    - pip3 install gitlab-release
+    - *create-release-message
+    - echo "${release_message}"
+    - gitlab-release --description "${release_message}" releases/*.gif
+

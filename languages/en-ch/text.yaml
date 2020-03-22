@@ -1,0 +1,30 @@
+or:
+  text: "OR..."
+  size: 250
+  xOffset: 435
+  yOffset: 250
+  rotate: 0
+  justify: center
+
+this-person-worked-from-home:
+  text: |
+    THIS PERSON
+    WORKED
+    FROM HOME
+  size: 38
+  xOffset: 210
+  yOffset: 110
+  rotate: 0
+  justify: center
+
+this-person-didnt-go-to-that-bbq:
+  text: |
+    THIS PERSON
+    DIDN'T GO TO
+    THAT BBQ
+  size: 38
+  xOffset: 533
+  yOffset: 115
+  rotate: 0
+  justify: center
+
