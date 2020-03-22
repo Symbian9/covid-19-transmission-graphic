@@ -21,7 +21,7 @@ build-gif-mr:
 
   artifacts:
     paths:
-      - releases/Covid-19-curves-graphic-social-v2-${CI_MERGE_REQUEST_SOURCE_BRANCH_NAME}.gif
+      - releases/covid-19-transmission-graphic-${CI_MERGE_REQUEST_SOURCE_BRANCH_NAME}.gif
 
 build-gif-master:
   image:
