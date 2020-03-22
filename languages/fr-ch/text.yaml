@@ -1,0 +1,49 @@
+or:
+  text: "OU..."
+  size: 250
+  xOffset: 435
+  yOffset: 250
+  rotate: 0
+  justify: center
+
+this-person-worked-from-home:
+  text: |
+    CETTE PERSONNE A
+    TRAVAILLÉ DEPUIS
+    LA MAISON
+  size: 38
+  xOffset: 210
+  yOffset: 110
+  rotate: 0
+  justify: center
+
+this-person-didnt-go-to-that-bbq:
+  text: |
+    CETTE PERSONNE
+    N'EST PAS ALLÉ A
+    CE BARBECUE
+  size: 38
+  xOffset: 533
+  yOffset: 115
+  rotate: 0
+  justify: center
+
+didnt-fly-domestically:
+  text: |
+    N'A PAS PRIS DE
+    VOLS INTERNES
+  size: 38
+  xOffset: 420
+  yOffset: 570
+  rotate: 0
+  justify: center
+
+stayed-home:
+  text: |
+    RESTÉ A
+    LA MAISON
+  size: 38
+  xOffset: 840
+  yOffset: 645
+  rotate: 0
+  justify: center
