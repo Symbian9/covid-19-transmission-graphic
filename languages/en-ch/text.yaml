@@ -28,3 +28,22 @@ this-person-didnt-go-to-that-bbq:
   rotate: 0
   justify: center
 
+didnt-fly-domestically:
+  text: |
+    DIDN'T FLY
+    DOMESTICALLY
+  size: 38
+  xOffset: 426
+  yOffset: 576
+  rotate: 0
+  justify: center
+
+stayed-home:
+  text: |
+    STAYED
+    HOME
+  size: 38
+  xOffset: 825
+  yOffset: 650
+  rotate: 0
+  justify: center
