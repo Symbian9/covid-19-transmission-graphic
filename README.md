@@ -22,7 +22,9 @@ As the original GIF is in english only, this repo helps to make rapid translatio
 
 ### Online with Gitlab in a browser
 
-You can do everything in a browser like described in this video
+You can do everything in a browser like described in this video made for the first translation project (https://gitlab.com/msutter/covid-19-curves-graphic-social)
+
+The procedure is the same as for this project.
 
 * https://www.youtube.com/watch?v=-ThkrkFLY8Q
 
