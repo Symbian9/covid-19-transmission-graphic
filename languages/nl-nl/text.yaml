@@ -1,0 +1,49 @@
+or:
+  text: "OF..."
+  size: 250
+  xOffset: 435
+  yOffset: 250
+  rotate: 0
+  justify: center
+
+this-person-worked-from-home:
+  text: |
+    DEZE PERSOON
+    WERKTE
+    THUIS
+  size: 38
+  xOffset: 205
+  yOffset: 110
+  rotate: 0
+  justify: center
+
+this-person-didnt-go-to-that-bbq:
+  text: |
+    DEZE PERSOON
+    GING NIET
+    NAAR DIE BBQ
+  size: 38
+  xOffset: 525
+  yOffset: 115
+  rotate: 0
+  justify: center
+
+didnt-fly-domestically:
+  text: |
+    GING NIET
+    NAAR HET STRAND
+  size: 32
+  xOffset: 425
+  yOffset: 575
+  rotate: 0
+  justify: center
+
+stayed-home:
+  text: |
+    BLEEF
+    THUIS
+  size: 38
+  xOffset: 850
+  yOffset: 645
+  rotate: 0
+  justify: center
