@@ -1,0 +1,49 @@
+or:
+  text: "या..."
+  size: 250
+  xOffset: 435
+  yOffset: 250
+  rotate: 0
+  justify: center
+
+this-person-worked-from-home:
+  text: |
+    यह व्यक्ति
+    घर से काम
+    करता है
+  size: 38
+  xOffset: 210
+  yOffset: 110
+  rotate: 0
+  justify: center
+
+this-person-didnt-go-to-that-bbq:
+  text: |
+    यह व्यक्ति
+    उस पार्टी में
+    नहीं जाता है
+  size: 38
+  xOffset: 533
+  yOffset: 115
+  rotate: 0
+  justify: center
+
+didnt-fly-domestically:
+  text: |
+    फ्लाइट में नहीं
+    चढ़ता है
+  size: 38
+  xOffset: 420
+  yOffset: 570
+  rotate: 0
+  justify: center
+
+stayed-home:
+  text: |
+    घर पर
+    रहता है
+  size: 38
+  xOffset: 840
+  yOffset: 645
+  rotate: 0
+  justify: center
