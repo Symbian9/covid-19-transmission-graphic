@@ -1,7 +1,7 @@
 or:
   text: "O..."
   size: 250
-  xOffset: 435
+  xOffset: 515
   yOffset: 250
   rotate: 0
   justify: center
@@ -11,9 +11,9 @@ this-person-worked-from-home:
     QUESTA PERSONA
     HA LAVORATO
     DA CASA
-  size: 38
-  xOffset: 210
-  yOffset: 110
+  size: 30
+  xOffset: 205
+  yOffset: 128
   rotate: 0
   justify: center
 
@@ -21,10 +21,11 @@ this-person-didnt-go-to-that-bbq:
   text: |
     QUESTA PERSONA
     NON È ANDATA
-    A QUELLA GRIGLIATA
-  size: 38
-  xOffset: 533
-  yOffset: 115
+    A QUELLA
+    GRIGLIATA
+  size: 30
+  xOffset: 526
+  yOffset: 110
   rotate: 0
   justify: center
 
@@ -32,9 +33,9 @@ didnt-fly-domestically:
   text: |
     NON HA PRESO
     VOLI NAZIONALI
-  size: 38
-  xOffset: 420
-  yOffset: 570
+  size: 30
+  xOffset: 440
+  yOffset: 580
   rotate: 0
   justify: center
 
@@ -42,8 +43,8 @@ stayed-home:
   text: |
     È RIMASTA
     A CASA
-  size: 38
-  xOffset: 840
-  yOffset: 645
+  size: 30
+  xOffset: 830
+  yOffset: 658
   rotate: 0
   justify: center
