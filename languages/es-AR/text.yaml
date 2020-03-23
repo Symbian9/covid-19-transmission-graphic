@@ -8,7 +8,7 @@ or:
 
 this-person-worked-from-home:
   text: |
-    Esta Persona
+    Esta persona
     trabaja
     desde casa
   size: 38
@@ -30,9 +30,8 @@ this-person-didnt-go-to-that-bbq:
 
 didnt-fly-domestically:
   text: |
-    Esta persona
-    solo sale lo
-    indispensable
+    Él se queda
+    en casa
   size: 38
   xOffset: 420
   yOffset: 570
@@ -41,8 +40,8 @@ didnt-fly-domestically:
 
 stayed-home:
   text: |
-    QUÉDENSE EN
-    SUS CASAS
+    Ella se queda
+    en casa
   size: 38
   xOffset: 840
   yOffset: 645
