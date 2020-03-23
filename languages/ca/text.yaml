@@ -1,48 +1,46 @@
 or:
   text: "O..."
   size: 250
-  xOffset: 435
+  xOffset: 475
   yOffset: 250
   rotate: 0
   justify: center
 
 this-person-worked-from-home:
   text: |
-    AQUESTA PERSONA
-    VA TREBALLAR
+    TREBALLA
     DES DE CASA
-  size: 38
-  xOffset: 210
-  yOffset: 110
+  size: 34
+  xOffset: 218
+  yOffset: 140
   rotate: 0
   justify: center
 
 this-person-didnt-go-to-that-bbq:
   text: |
-    AQUESTA PERSONA
     NO VA ANAR A
     AQUELLA BBQ
-  size: 38
-  xOffset: 533
-  yOffset: 115
+  size: 34
+  xOffset: 532
+  yOffset: 140
   rotate: 0
   justify: center
 
 didnt-fly-domestically:
   text: |
     NO VA VOLAR
-  size: 38
-  xOffset: 420
-  yOffset: 570
+  size: 34
+  xOffset: 445
+  yOffset: 600
   rotate: 0
   justify: center
 
 stayed-home:
   text: |
-    ES VA QUEDAR
+    ES QUEDA
     A CASA
-  size: 38
-  xOffset: 840
-  yOffset: 645
+  size: 34
+  xOffset: 830
+  yOffset: 650
   rotate: 0
   justify: center
