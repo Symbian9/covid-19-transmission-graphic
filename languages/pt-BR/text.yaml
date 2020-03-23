@@ -12,7 +12,7 @@ this-person-worked-from-home:
     TRABALHOU
     DE CASA
   size: 38
-  xOffset: 210
+  xOffset: 214
   yOffset: 110
   rotate: 0
   justify: center
@@ -23,7 +23,7 @@ this-person-didnt-go-to-that-bbq:
     NÃO FOI AO
     CHURRASCO
   size: 38
-  xOffset: 533
+  xOffset: 535
   yOffset: 115
   rotate: 0
   justify: center
