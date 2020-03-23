@@ -33,7 +33,7 @@ didnt-fly-domestically:
     CANCELOU
     A VIAGEM
   size: 38
-  xOffset: 420
+  xOffset: 520
   yOffset: 570
   rotate: 0
   justify: center
@@ -43,7 +43,7 @@ stayed-home:
     FICOU
     EM CASA
   size: 38
-  xOffset: 840
+  xOffset: 740
   yOffset: 645
   rotate: 0
   justify: center
