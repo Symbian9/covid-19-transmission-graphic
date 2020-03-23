@@ -1,6 +1,6 @@
 or:
   text: "أو..."
-  size: 250
+  size: 150
   xOffset: 435
   yOffset: 250
   rotate: 0
@@ -11,7 +11,7 @@ this-person-worked-from-home:
     هذا الشخص
     عمل
     من المنزل
-  size: 38
+  size: 30
   xOffset: 210
   yOffset: 110
   rotate: 0
@@ -22,7 +22,7 @@ this-person-didnt-go-to-that-bbq:
     هذا الشخص
     لم يذهب إلى
     حفل الشواء
-  size: 38
+  size: 30
   xOffset: 533
   yOffset: 115
   rotate: 0
@@ -32,7 +32,7 @@ didnt-fly-domestically:
   text: |
     لم يسافر
     محلياً
-  size: 38
+  size: 30
   xOffset: 420
   yOffset: 570
   rotate: 0
@@ -42,7 +42,7 @@ stayed-home:
   text: |
     بقي في
     البيت
-  size: 38
+  size: 30
   xOffset: 840
   yOffset: 645
   rotate: 0
