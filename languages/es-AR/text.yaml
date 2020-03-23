@@ -1,5 +1,5 @@
 or:
-  text: "O..."
+  text: " O..."
   size: 250
   xOffset: 435
   yOffset: 250
@@ -30,8 +30,8 @@ this-person-didnt-go-to-that-bbq:
 
 didnt-fly-domestically:
   text: |
-    Él se queda
-    en casa
+    Ella se queda en
+    casa
   size: 38
   xOffset: 420
   yOffset: 570
@@ -40,8 +40,8 @@ didnt-fly-domestically:
 
 stayed-home:
   text: |
-    Ella se queda
-    en casa
+    Él no
+    sale
   size: 38
   xOffset: 840
   yOffset: 645
