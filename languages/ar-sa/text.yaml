@@ -1,7 +1,7 @@
 or:
   text: "أو..."
   size: 150
-  xOffset: 235
+  xOffset: 535
   yOffset: 250
   rotate: 0
   justify: center
@@ -33,7 +33,7 @@ didnt-fly-domestically:
     لم يسافر
     محلياً
   size: 30
-  xOffset: 320
+  xOffset: 520
   yOffset: 570
   rotate: 0
   justify: center
