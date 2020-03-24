@@ -1,0 +1,43 @@
+or:
+  text: "یا ..."
+  size: 250
+  xOffset: 435
+  yOffset: 250
+  rotate: 0
+  justify: center
+
+this-person-worked-from-home:
+  text: |
+    در خانه کار کرد
+  size: 38
+  xOffset: 211
+  yOffset: 110
+  rotate: 0
+  justify: center
+
+this-person-didnt-go-to-that-bbq:
+  text: |
+    مهمانی نرفت
+  size: 38
+  xOffset: 525
+  yOffset: 115
+  rotate: 0
+  justify: center
+
+didnt-fly-domestically:
+  text: |
+    پرواز نکرد
+  size: 38
+  xOffset: 480
+  yOffset: 600
+  rotate: 0
+  justify: center
+
+stayed-home:
+  text: |
+    خانه ماند
+  size: 38
+  xOffset: 830
+  yOffset: 645
+  rotate: 0
+  justify: center
